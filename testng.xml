@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="tests.A_Onboard_to_prelink_New_Jurisdiction_End_To_End">
+      
+      <methods>
+    
+      <include name="c49349_c49351_functional_verification_of_the_Request_Revision_request_status_option"/>
+      <include name="c49282_verify_the_functionality_of_Manage_Jurisdiction_Status_menu_when_Revision_requested_by_JSA"/>
+       <include name="c49352_verification_of_Manage_Jurisdiction_Status_page_after_Revision_request"/>
+       <include name="Functional_verification_of_Cancel_Button_by_JSA_Manage_Jurisdiction_Details_page"/>
+       <include name="C51319_Approval_of_proposed_status_change_from_Onboarding_to_Prelinked_when_all_emails_not_configured"/>
+       <include name="C57008_Verify_the_functionality_of_Approve_radio_button_on_Manage_Jurisdiction_Details_page"/>
+       <include name="C47598_verify_the_accessibility_of_the_Manage_jurisdiction_Homepage_for_other_than_WCI_Inc_admin"/>
+       <include name="C48115_verify_the_Accessibility_of_Status_Change_History_Table_for_Jurisdiction_Users"/>
+        <include name="C48116_verify_the_Accessibility_of_Status_Change_History_Table_for_WCI_Inc_Admin"/>
+        <include name="C48122_verify_the_Accessibility_of_Quick_Actions_menu_for_Registrar_in_Onboarding_status"/>
+       
+       
+       
+         </methods>
+         </class>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
